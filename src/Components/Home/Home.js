@@ -47,16 +47,15 @@ const Home = () => {
 						<h4>Education</h4>
 						<p>
 							<strong>General Assembly</strong> <br />
-							Software Engineering Immersive 2020
+							Software Engineering Immersive - 2020
 						</p>
 
 						<p>
 							<strong>University of Illinois, Urbana-Champaign</strong>
 							<br />
-							Master of Accounting Science, Information Technology Minor
+							Master of Accounting Science, Information Technology Minor - 2013
 							<br />
-							Bachelor of Science in Accountancy, Environmental Fellows Program
-							2012
+							Bachelor of Science in Accountancy, Environmental Fellows Program - 2012
 						</p>
 					</div>
 
