@@ -17,7 +17,7 @@ body {
 
 section {
   width: 100%;
-  padding: 0 7%;
+  padding:  7%;
   display: table;
   margin: 0;
   max-width: none;
@@ -33,6 +33,7 @@ section {
 
   display: table-cell;
   vertical-align: top;
+  margin-top: 30px;
 }
 
 h1 {
@@ -161,6 +162,8 @@ a {
 		transform: translateZ(80px) scale(0.94);
 	}
 }
+
+
 
 .front {
 	background-color: #fff;

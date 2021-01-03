@@ -9,7 +9,8 @@ import Resume from '../../Resources/Resume - Current.pdf';
 const Home = () => {
 	return (
 		<div>
-			<section className='intro'>
+			<section id='intro' className='intro'>
+				<div className='buffer'></div>
 				<div className='intro-content'>
 					<div className='hi'>Hi I'm Liz Roper.</div>
 					<div className='tagline'>
@@ -18,7 +19,7 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section>
+			<section id='about'>
 				<div className='content'>
 					<h1>About</h1>
 					<div className='image-cropper'>
@@ -55,7 +56,8 @@ const Home = () => {
 							<br />
 							Master of Accounting Science, Information Technology Minor - 2013
 							<br />
-							Bachelor of Science in Accountancy, Environmental Fellows Program - 2012
+							Bachelor of Science in Accountancy, Environmental Fellows Program
+							- 2012
 						</p>
 					</div>
 
@@ -65,7 +67,7 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section>
+			<section id='projects'>
 				<div className='content'>
 					<h1>Projects</h1>
 					<div className='wrapper'>
@@ -81,7 +83,7 @@ const Home = () => {
 									className='front'
 									style={{
 										backgroundImage: `url(${SDPQ})`,
-										// backgroundPosition: 'center',
+
 										backgroundSize: 'contain',
 									}}>
 									<div className='inner'>
@@ -140,6 +142,7 @@ const Home = () => {
 										backgroundPosition: 'top',
 										backgroundSize: 'contain',
 										backgroundRepeat: 'no-repeat',
+										backgroundColor: '#fff',
 									}}>
 									<div className='inner'>
 										<label
@@ -252,7 +255,7 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section>
+			<section id='contact'>
 				<div className='contact-content'>
 					<h1>Contact & Connect</h1>
 					<a
